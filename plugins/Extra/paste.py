@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @VOLT_DEV
+# Subscribe YouTube Channel For Amazing Bot @VOLT_DEV
+# Ask Doubt on telegram @VOLT_ADMINBOT
 
 import os
 import re

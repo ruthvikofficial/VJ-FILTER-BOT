@@ -1,8 +1,8 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @VOLT_DEV
+# Subscribe YouTube Channel For Amazing Bot @VOLT_DEV
+# Ask Doubt on telegram @VOLT_ADMINBOT
 
-# Clone Code Credit : YT - @Tech_VJ / TG - @VJ_Bots / GitHub - @VJBots
+# Clone Code Credit : YT - @VOLT_DEV / TG - @VJ_Bots / GitHub - @VJBots
 
 import os, string, logging, random, asyncio, time, datetime, re, sys, json, base64
 from Script import script
