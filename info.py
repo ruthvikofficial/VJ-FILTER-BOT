@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VOLT_DISCUSSIONS2')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VOLTDISCUSSIONS2')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Volt_MAIN')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/volt_ADMIN_BOT')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'VOLT_MAIN') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/volt_ADMINBOT')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -166,7 +166,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://sufficient-briny-voltzone-068588a1.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
