@@ -244,7 +244,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>Hey {message.from_user.mention}❤️</b>
+    CAPTION = """<b>Hey ❤️</b>
     <b>{file_name}
     🔘 Size : {file_size}</b>   
     •────•────────•────•  
