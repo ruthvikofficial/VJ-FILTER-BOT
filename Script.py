@@ -244,9 +244,9 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>Hey {mention}❤️</b>
+    CAPTION = """<b>Hey {message.from_user.mention}❤️</b>
     <b>{file_name}
-    🔘 size - {file_size}</b>   
+    🔘 Size : {file_size}</b>   
     •────•────────•────•  
     📢 Main Channel : <a href="https://t.me/Volt_Main">Click Here</a>
     🔍 Search : <a href="https://t.me/VOLTDISCUSSIONS2">Click Here</a>
