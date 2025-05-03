@@ -213,7 +213,9 @@ Nᴀᴍᴇ - {}"""
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    MVE_NT_FND = """Movie Not Found in Database 😕
+    Check Your Spelling in Google or IMDB...
+    """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -244,14 +246,15 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>Hey ❤️</b>
-    <b>{file_name}
-    🔘 Size : {file_size}</b>   
-    •────•────────•────•  
-    📢 Main Channel : <a href="https://t.me/Volt_Main">Click Here</a>
-    🔍 Search : <a href="https://t.me/VOLTDISCUSSIONS2">Click Here</a>
-    •────•────────•────• 
-    🎯 Bot Dev 💫 : <a href="https://t.me/VOLT_DEV"><b>VOLT X DEV</b></a>""" 
+    CAPTION = """
+<b>{file_name}
+
+🔘 Size : {file_size}</b>
+•──────•────────•──────•
+📢| Main Channel : <a href="https://t.me/Volt_Main">Click Here</a>
+🔍| Search : <a href="https://t.me/VOLTDISCUSSIONS2">Click Here</a>
+•──────•────────•──────•
+🎯| Bot Dev 💫 : <a href="https://t.me/VOLT_DEV"><b>VOLT X DEV</b></a>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
