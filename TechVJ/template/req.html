@@ -218,12 +218,13 @@
     </script>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
     <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
-	<script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
         const controls = [
             'play-large',
-            'rewind','play', 
-            'fast-forward', 
-            'progress', 
+            'rewind', 'play',
+            'fast-forward',
+            'progress',
             'current-time',
             'duration',
             'mute',
@@ -235,11 +236,13 @@
             'download',
             'fullscreen'
         ];
-        document.addEventListener('DOMContentLoaded', () => {
-            const player = Plyr.setup('.player', { controls });
+        
+        const player = new Plyr('#player', {
+            controls: controls
         });
+    });
+</script>
 
-    </script>
     <!-- iterate animation -->
 
 
