@@ -293,8 +293,8 @@
     
     <script>
         const videolink = window.location.href;
-        const  Link = videolink.replace("/watch/", "/");
-
+        // const  Link = videolink.replace("/watch/", "/");
+        const Link = videolink.replace(/^https?:\/\//, '').replace('/watch/', '/');
         function vlc_player() {
             const openLink = Link;
             const openVlc = `vlc://${openLink}`;
