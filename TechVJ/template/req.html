@@ -295,11 +295,21 @@
         const videolink = window.location.href;
         const  Link = videolink.replace("/watch/", "/");
 
-        function vlc_player() {
-            const openLink = Link;
-            const openVlc = `vlc://${openLink}`;
-            window.location.href = openVlc;
-        }
+       function cleanLink(dirtyLink) {
+    // Remove redundant protocols
+    return dirtyLink
+        .replace(/^http:\/\/\/+/, '')  // Remove 'http:///' at the start
+        .replace(/^https?:\/\//, '')   // Remove any remaining http:// or https://
+        .replace(/^\/+/, '')           // Remove extra leading slashes
+        .trim();
+}
+
+function vlc_player() {
+    const dirtyLink = "{link}";
+    const cleaned = cleanLink(dirtyLink);
+    const openVlc = `vlc://https://${cleaned}`;
+    window.location.href = openVlc;
+}
 	    
 	function mx_player() {
             const openLink = Link;
