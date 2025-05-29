@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -242,7 +241,7 @@
         });
     });
 </script> -->
-<script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
 	<script>
         const controls = [
             'play-large',
@@ -265,83 +264,3 @@
         });
 
     </script>
-    <!-- iterate animation -->
-
-
-
-
-    <!-- disabling right click -->
-    <script>
-        document.addEventListener("contextmenu", function (e) {
-        e.preventDefault();
-    });
-    document.addEventListener('keydown', function (e) {
-        if (
-            e.key === 'F12' ||
-            (e.ctrlKey && e.shiftKey && e.key === 'I') ||
-            (e.ctrlKey && e.key === 'u') ||
-            e.ctrlKey ||
-            e.shiftKey ||
-            e.altKey
-        ) {
-            e.preventDefault();
-        }
-    });
-    </script>
-    
-    
-    
-    <script>
-        const videolink = window.location.href;
-        // const  Link = videolink.replace("/watch/", "/");
-        const Link = videolink.replace(/^https?:\/\//, '').replace('/watch/', '/');
-        function vlc_player() {
-            const openLink = Link;
-            const openVlc = `vlc://${openLink}`;
-            window.location.href = openVlc;
-        }
-	    
-	function mx_player() {
-            const openLink = Link;
-            const openMx = `intent:${openLink}#Intent;package=com.mxtech.videoplayer.ad;end`;
-            window.location.href = openMx;
-        }
-        
-	function playit_player() {
-    	const openLink = Link;
-    	const openPlayit = `playit://playerv2/video?url=${openLink}`;
-   	 window.location.href = openPlayit;
-	}
-	    
-	function s_player() {
-            const openLink = Link;
-            const openSplayer = `intent:${openLink}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
-            window.location.href = openSplayer;
-        }
-	    
-	function km_player() {
-           const openLink = Link;
-           const openKmplayer = `intent:${openLink}#Intent;package=com.kmplayer;end`;
-           window.location.href = openKmplayer;
-        }
-        
-	function hd_player() {
-           const openLink = Link;
-           const openHDplayer = `intent:${openLink}#Intent;package=uplayer.video.player;end`;
-           window.location.href = openHDplayer;
-        }
-	    
-        function Download() {
-            const openLink = Link;
-            window.location.href = openLink;
-        }
-
-    </script>
-    <script src="https://cdn.plyr.io/3.6.9/plyr.polyfilled.js"></script>
-<script>
-    const player = new Plyr('#player');
-</script>
-</body>
-</html>
-
-<!--  Don't Remove Credit @VJ_Bot Subscribe YouTube Channel For Amazing Bot @VOLT_DEV Ask Doubt on telegram @VOLT_ADMINBOT -->
