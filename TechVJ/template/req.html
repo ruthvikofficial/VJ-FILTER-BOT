@@ -216,12 +216,16 @@
 
     </script>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
-    <!-- <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+<!-- Include Plyr JS -->
+<script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+
+<!-- Plyr Initialization Script -->
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const controls = [
             'play-large',
-            'rewind', 'play',
+            'rewind',
+            'play',
             'fast-forward',
             'progress',
             'current-time',
@@ -235,32 +239,8 @@
             'download',
             'fullscreen'
         ];
-        
-        const player = new Plyr('#player', {
-            controls: controls
-        });
-    });
-</script> -->
-    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
-	<script>
-        const controls = [
-            'play-large',
-            'rewind','play', 
-            'fast-forward', 
-            'progress', 
-            'current-time',
-            'duration',
-            'mute',
-            'volume',
-            'captions',
-            'settings',
-            'pip',
-            'airplay',
-            'download',
-            'fullscreen'
-        ];
-        document.addEventListener('DOMContentLoaded', () => {
-            const player = Plyr.setup('.player', { controls });
-        });
 
-    </script>
+        // Initialize Plyr for the video
+        Plyr.setup('.player', { controls });
+    });
+</script>
