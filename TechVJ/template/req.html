@@ -57,7 +57,7 @@
                     <button class="magnet" onclick="copyStreamLink()">
                         <img src="https://i.ibb.co/CM4Y586/link.png" alt="Copy Link">copy link
                     </button>
-                    <button class="magnet" onclick="vlc_player()">
+                    <button class="magnet" onclick="vlc_player1()">
                         <img src="https://i.ibb.co/px6fQs1/vlc.png" alt="">watch in VLC PLAYER
                     </button>
                     <button class="magnet" onclick="mx_player()">
@@ -167,14 +167,18 @@
             event.preventDefault();
         });
     });
-    // const videolink = window.location.href;
-    //     // const  Link = videolink.replace("/watch/", "/");
-    //     const Link = videolink.replace(/^https?:\/\//, '').replace('/watch/', '/');
-    //     function vlc_player() {
-    //         const openLink = Link;
-    //         const openVlc = `vlc://${openLink}`;
-    //         window.location.href = openVlc;
-    //     }
+
+</script>
+<script>
+    const videolink = window.location.href;
+const streamlink = videolink.replace(/^https?:\/\//, '').replace('/watch/', '/');
+
+function vlc_player() {
+    
+    const openstreamlink = streamlink;
+    const openVlc = `vlc://${openstreamlink}`;
+    window.location.href = openVlc;
+}
 </script>
 <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
 <script src="https://proavipatil.github.io/data/fs/src/script.js"></script>
